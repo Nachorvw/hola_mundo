@@ -1,0 +1,22 @@
+/* aca se configura todo lo que viene siendo el estilo y la apariencia de la pagina*/
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#perro {
+  height: auto;
+  width: 400px;
+  border-radius: 50%;
+}
+
+#arbol {
+  height: auto;
+  width: 400px;
+  border-style: ridge;
+  border-color: blue;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  color: crimson;
+}
