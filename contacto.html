@@ -33,5 +33,28 @@
         <td>email</td>
       </tr>
     </table>
+    <!--aqui realizamos un formulario-->
+    <h1>formulario</h1>
+    <p>formulario de contacto</p>
+    <!--la etiqueta "form" es para crear un formulario-->
+    <form action="formulario">
+      <!--la etiqueta "label" es el nombre que se le da a una opcion a llenar en el formulario-->
+      <label for="Nombre">nombre</label>
+      <!--la etiqueta "input" es el cuadrado donde el usuario escribe ya sea texto numeros etc-->
+      <input type="text" /><br />
+      <label for="apellidos">apellido</label>
+      <input type="text" /><br />
+      <label for="Mail">mail</label>
+      <input type="text" /><br />
+      <!--la etiqueta "select" crea unas opciones para seleccionar-->
+      <select>
+        <!--la etiqueta "option" define que opciones son seleccionables-->
+        <option>hombre</option>
+        <br />
+        <option>mujer</option></select
+      ><br />
+      <!--con este "input" de type submit es el boton para enviar el formulario, en value le ponemos el texto que aparece-->
+      <input type="submit" value="ENVIAR" />
+    </form>
   </body>
 </html>
